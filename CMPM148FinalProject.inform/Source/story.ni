@@ -2,13 +2,15 @@
 
 [INIT]
 [BIG BAD]
-Garett is a male person.
+Garrett is a male person. The printed name of Garrett is "the entity".
 
 [TELEKEYS]
 A telekey is a kind of thing. Telekeys are undescribed.
 The flag is a telekey. The description of the flag is "The flag of Croatia. Look at that cool goat, and all those checkers, man."
 The royal spork is a telekey. The description of the spork is "A tall golden spork, an heirloom passed down the royal business manatee line. Only the worthy may wield it."
-The bottle of vodka is a telekey. 
+The bottle of vodka is a telekey.
+The box of band-aids is a telekey.
+The sparkly Bowie knife is a telekey.
 
 
 [MAP]
@@ -30,6 +32,7 @@ The golden key unlocks the drawer. The golden key is on the table in the Confere
 Turtoga Island is a region.
 The Tortoise Beach, Tavern, and the Temple of the Turtle God are rooms in Turtoga Island.
 The beach is south of the temple and west of the tavern.
+The bottle of vodka is in the beach. "The breeze blows over the gentle slopes of sand."
 
 
 [THE MYSTICAL FOREST BEYOND THE SOFA]
@@ -61,7 +64,7 @@ The printed name of the m2 is "Maze Room 5".
 The printed name of the m1 is "Maze Room 6".
 The printed name of the m3 is "Maze Room 7".
 The printed name of the m6 is "So Close...".
-The printed name of the m8 is "YAY!".
+The printed name of the m8 is "YAAAAaah, crap. D:".
 Inside from m0 is m2. North from m0 is m1.
 South from m1 is m3. West from m1 is m3.
 Outside from m2 is m1. East of m2 is m6.
@@ -70,8 +73,7 @@ South from m4 is m7. West from m4 is m5.
 West from m5 is m2. South from m5 is m9.
 South from m6 is m9. Outside from m6 is m8.
 Inside from m9 is m0.
-
-
+Garrett is in m8.
 
 
 [the real world]
