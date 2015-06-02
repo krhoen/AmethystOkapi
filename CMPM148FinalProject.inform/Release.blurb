@@ -1,17 +1,17 @@
 ! Blurb file created by Inform build 6L38
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\varthandi\Documents\02GameDesign\Inform\Projects\Unreality.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\varthandi\Documents\02GameDesign\Inform\Projects\Unreality.inform"
+project folder "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform"
 
 ! Blorb instructions
 
-storyfile leafname "Unreality.gblorb"
-storyfile "C:\Users\varthandi\Documents\02GameDesign\Inform\Projects\Unreality.inform\Build\output.ulx" include
-ifiction "C:\Users\varthandi\Documents\02GameDesign\Inform\Projects\Unreality.inform\Metadata.iFiction" include
+storyfile leafname "Final Project.gblorb"
+storyfile "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Build\output.ulx" include
+ifiction "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
@@ -20,7 +20,7 @@ picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 placeholder [IFID] = "F6E642D7-118E-42E5-8F8C-A8D6631DAB69"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2015"
-placeholder [TITLE] = "Unreality"
+placeholder [TITLE] = "Final Project"
 placeholder [AUTHOR] = "Kristen Ho (kho11) and Martina Stepisnik (mstepisn)"
 placeholder [BLURB] = "A work of interactive fiction."
 
