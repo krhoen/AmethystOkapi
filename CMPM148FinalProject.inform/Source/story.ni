@@ -8,9 +8,9 @@ Garrett is a male person. The printed name of Garrett is "the entity".
 A telekey is a kind of thing. Telekeys are undescribed.
 The flag is a telekey. The description of the flag is "The flag of Croatia. Look at that cool goat, and all those checkers, man."
 The royal spork is a telekey. The description of the spork is "A tall golden spork, an heirloom passed down the royal business manatee line. Only the worthy may wield it."
-The bottle of vodka is a telekey.
-The box of band-aids is a telekey.
-The sparkly Bowie knife is a telekey.
+The bottle of vodka is a telekey. The description of the bottle is "Don't pirates drink rum? Whatever, a drink's a drink."
+The box of band-aids is a telekey. The description of the box is "Perfectly sized for all your owies."
+The sparkly Bowie knife is a telekey. The description of the knife is "The most glorious, fabulous, sparkly, and musical knife to ever exist."
 
 
 [MAP]
