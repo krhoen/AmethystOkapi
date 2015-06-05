@@ -5,7 +5,7 @@
 [INIT]
 [BIG BAD]
 Garrett is a male person.
-The dragon is a person.
+The dragon is a person. The description of the dragon is "A huge, fearsome, black dragon with the greenest eyes you've ever seen. From the way it's currently rambling on and on about itself, it sure likes how it looks. Maybe you should introduce it to that Narcissus guy from that myth. You know, the one where the guy falls in love with himself and dies because he saw himself in the mirror?"
 The shark is a person.
 
 [NPCs]
@@ -22,7 +22,7 @@ The sparkly Bowie knife is a telekey. The description of the knife is "The most 
 
 [ITEMS]
 [Essential items]
-The mirror is a thing. The description of the mirror is "Ooh, shiny. You look a little wierd in it."
+The mirror is a thing. The description of the mirror is "Ooh, shiny. You look a little wierd in it. It's so shiny."
 
 
 [MAP]
@@ -31,9 +31,11 @@ Cramalot is a region.
 The Tower, Library, and Throne Room are rooms in Cramalot.
 The Library is down from the Tower, south of the Tower, and west of the Throne.
 
-The description of the Tower is "A spacious room with tall, open windows. You can see the purple of the sun and the three pink moons from here, against a backdrop of green sky. The middle of the room is open, allowing you to see the bookshelves below. The stairs on the south side of the tower lead down into the Library."
+The description of the Tower is "A spacious tower room with tall, open windows. You can see the purple of the sun and the three pink moons from here, against a backdrop of green sky. The middle of the room is open, allowing you to see the bookshelves below. The stairs on the south side of the tower lead down into the Library."
 
-The description of the Library is "A room full of books and desks. The Throne Room is east of here."
+Instead of jumping in the Tower, say "[one of]Yes, you'll become a beautiful splatter on the floor below, just like you always wanted. How about no?[or]Your adventurous spirit gets the better of you and convinces you to jump down into the library. You back up to give yourself a running start, and reach out your hand to grab the banister to parkour over it and -[line break]SLAM![line break]- run face first into the invisible wall in front of it. Safety first![stopping]"
+
+The description of the Library is "A room full of books, shelves, and desks. The Throne Room is east of here."
 There are bookshelf, bookcase, desk, chair in the Library. The chair is an enterable supporter. The bookshelf is a supporter. The bookcase is an openable, closed, opaque container. The desk is an openable, closed, lockable, locked, opaque container. The flower key unlocks the desk. It is in the bookcase. The mirror is in the desk.
 
 [no taking weird shit]
@@ -42,21 +44,20 @@ Instead of taking the desk:
 Instead of taking the bookcase:
 	say "Looks heavy.  Probably not even worth trying.".
 Instead of taking the bookshelf:
-	say "What is a library without books?  Besides, where would you even take it too?".
+	say "What is a library without books?  Besides, where would you even take it?".
 Instead of taking the chair:
-	say "The chair matched the desk so nicely, it would be a shame to separate them.".
+	say "The chair matches the desk so nicely, it would be a shame to separate them.".
 Instead of taking the seat:
-	say "You think about it and decide it might not be wise to steal someone's thrown.  This is how wars are started, after all...".
+	say "You think about it and decide it might not be wise to steal someone's throne.  This is how wars are started, after all...".
 
-The printed name of the desk is "the desk".
-The description of the flower key is "A brass key in the shape of a flower. It matches the carvings on one of the desks, *hinthintnudgenudge*."
-On the bookshelf is a pile of books and a Legend of the Bad Dude. The description of the books is "[one of]You flick through the pages of one of the heavier books. 'Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.' Ummm.... no.[or]You pick up one of the books and flip to a random page. 'Consider the infinite Atwood’s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?'[line break]You carefully close the book and replace it, as if any sudden  movements will incur its wrath.[or] You eye the books skeptically. Maybe this time you'll pick up something that isn't a textbook? You try your luck: 'You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?' Nope. Nuh-uh. Never again.[or] NO.[stopping]".
+The description of the flower key is "A brass key in the shape of a flower. It matches the carvings on one of the desks."
+On the bookshelf is a pile of books and a Legend of the Bad Dude Part 1. The description of the books is "[one of]You flick through the pages of one of the heavier books. 'You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?'[or]You eye the books skeptically. Maybe this time you'll pick up something that isn't a textbook? You try your luck:'Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.' Ummm.... no.[or]You pick up one of the books and flip to a random page. 'Consider the infinite Atwood’s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?'[line break]You carefully close the book and replace it, as if any sudden  movements will incur its wrath.[or]Nope. Nuh-uh. Never again.[or]NO.[stopping]".
 Instead of taking the books, say "No chance. No way. You won't do it, no, no."
 
-The description of the Legend is "<<insert foreshadowing lore thing here>>"
+The description of Part 1 is "Once upon a time, there was a King name Garrett. He was an old and powerful sorceror, and wanted to rule the world of dreams, but he needed five special items to do so. So he summoned a dreamer to his realm, and had them gather these items, for he could not touch them."
 
 The description of the Throne Room is "A huge, open space, complete with pillars, paintings, and a beautiful view of the outside world that you will never get to explore."
-The Standard Lecture Hall Seat is an enterable supporter in the Throne Room. "In the center, near the back of the room you see the throne of Cramalot's ruler: the Standard Lecture Hall Seat, barely comfortable fabric, plastic backing, one of those little table things you can pull up from the side. It's not exactly glorious, and so old you can see the springs pressing up from within the seat. Even so, it beckons to you."
+The Standard Lecture Hall Seat is an enterable supporter in the Throne Room. "In the center, near the back of the room you see the throne of Cramalot's ruler: the Standard Lecture Hall Seat, barely comfortable fabric, plastic backing, one of those little table things you can pull up from the side. It's not exactly glorious, and so old you can see the springs pressing up from within the seat. Even so, it beckons to you." Understand "throne" as the Seat.
 The Flag is in the Throne Room. "A flag hangs above the royal Standard Lecture Hall Seat. Three horizontal bands of red, white, and blue superimposed by the Croatian coat of arms." The Flag is described.
 Every turn:
 	if the player is on the Seat, say "You can feel the springs no matter what position you try to sit in. Maybe you should just not sit here."
@@ -80,28 +81,40 @@ Before entering the Seat:
 			say "The dragon roars at you, spitting fire and smoke in your general direction.";
 			stop the action;
 	else:
-		say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
-		move the dragon to the throne room;
-		stop the action.
-
+		if the dragon is not a bird:
+			say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant [hole] in it and scattering [rubble] everywhere.";
+			move the dragon to the throne room;
+			stop the action.
+The description of the hole is "Wow, the sky is so green!"
+The description of the rubble is "Somewhere out there, an architect is crying."
 
 Instead of attacking dragon:
 	say "[one of]You scream at the dragon in an attempt to scare it off. It blinks in confusion, then flapps its wings a couple of times, buffeting you with wind.[or]A huge plume of smoke erupts from the dragon's maw, engulfing you in searing heat. You bat it away with your arms, somehow dispersing it.[or]It snarls and snaps its jaws at you in warning, its shiny teeth gleaming in the light of the moons.[or]The dragon says, 'Gaze upon my glorious self! My scales are shining, my claws are sharp, and I am the most majestic creature ever to exist! There are none who are my equal!'[line break]Well, isn't he full of himself? Why not just sit in front a mirror all day and leave the rest of us alone?[at random]".
-	
+
+Instead of throwing mirror at dragon:
+	say "Since the dragon won't let you go anywhere near it, you decide to throw the mirror at it. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
+	now the dragon is a bird;
+	now the mirror is nowhere;
+	now the dragon is nowhere.	
+
 Instead of showing mirror to dragon:
-	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. [line break] 'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
-	now the dragon is a bird.
+	say "Since the dragon won't let you go anywhere near it, you decide to throw the mirror at it instead. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break] 'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
+	now the dragon is a bird;
+	now the mirror is nowhere;
+	now the dragon is nowhere.
 
 Instead of giving mirror to dragon:
-	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
-	now the dragon is a bird.
+	say "Since the dragon won't let you go anywhere near it, you decide to throw the mirror at it instead. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
+	now the dragon is a bird;
+	now the mirror is nowhere;
+	now the dragon is nowhere.
 	
 After taking the flag:
 	say "You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..";
 	now the flower key is nowhere;
 	now the pile of books is nowhere;
 	now the player is holding the legend;
-	say "[paragraph break]As the white begins to fade out, you realize your surroundings have changed and you seem to be underwater!  After a moment of panicked flailing, you realize you are having no trouble breathing and settle down.  Looking around, you notice you are in what seems to be some sort of lounge area.";
+	say "[paragraph break]As the white begins to fade out, you realize your surroundings have changed and you seem to be underwater! After a moment of panicked flailing, you realize you are having no trouble breathing and settle down.  Looking around, you notice you are in what seems to be some sort of lounge area.";
 	move the player to the Lounge;
 	End the story saying "To be continued...".
 
