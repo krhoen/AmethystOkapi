@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0xbddcc00" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xe52e900" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xbddcc00" />
-  <item nodeId="node-0xbddcc00">
+  <activeNode nodeId="node-0x18c93700" />
+  <item nodeId="node-0xe52e900">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -17,14 +17,14 @@ A spacious room with tall, open windows. You can see the purple of the sun and t
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="131">NO</temporary>
+    <temporary score="168">NO</temporary>
     <children>
-      <child nodeId="node-0xbd2ca90" />
-      <child nodeId="node-0xbd9e740" />
-      <child nodeId="node-0x36f520" />
+      <child nodeId="node-0x18c92540" />
+      <child nodeId="node-0x18c924d0" />
+      <child nodeId="node-0xe52e950" />
     </children>
   </item>
-  <item nodeId="node-0x36f520">
+  <item nodeId="node-0xe52e950">
     <command xml:space="preserve">down </command>
     <result xml:space="preserve">
 Library
@@ -37,10 +37,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0x1121d150" />
+      <child nodeId="node-0x18c91e70" />
     </children>
   </item>
-  <item nodeId="node-0x1121d150">
+  <item nodeId="node-0x18c91e70">
     <command xml:space="preserve">open bookcase</command>
     <result xml:space="preserve">You open bookcase, revealing a flower key.
 
@@ -49,10 +49,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xbd63740" />
+      <child nodeId="node-0x18c91ec0" />
     </children>
   </item>
-  <item nodeId="node-0xbd63740">
+  <item nodeId="node-0x18c91ec0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
@@ -61,10 +61,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe1527b0" />
+      <child nodeId="node-0x18c91f10" />
     </children>
   </item>
-  <item nodeId="node-0xe1527b0">
+  <item nodeId="node-0x18c91f10">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -73,10 +73,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xbdec110" />
+      <child nodeId="node-0x18c91f60" />
     </children>
   </item>
-  <item nodeId="node-0xbdec110">
+  <item nodeId="node-0x18c91f60">
     <command xml:space="preserve">use key</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -85,10 +85,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe5b5040" />
+      <child nodeId="node-0x18c91fb0" />
     </children>
   </item>
-  <item nodeId="node-0xe5b5040">
+  <item nodeId="node-0x18c91fb0">
     <command xml:space="preserve">put key in desk</command>
     <result xml:space="preserve">the desk is closed.
 
@@ -97,10 +97,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0x10d07aa0" />
+      <child nodeId="node-0x18c92080" />
     </children>
   </item>
-  <item nodeId="node-0x10d07aa0">
+  <item nodeId="node-0x18c92080">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -109,10 +109,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe5a3ee0" />
+      <child nodeId="node-0x18c920d0" />
     </children>
   </item>
-  <item nodeId="node-0xe5a3ee0">
+  <item nodeId="node-0x18c920d0">
     <command xml:space="preserve">x desk</command>
     <result xml:space="preserve">You see nothing special about the desk.
 
@@ -121,10 +121,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xbd72280" />
+      <child nodeId="node-0x18c92120" />
     </children>
   </item>
-  <item nodeId="node-0xbd72280">
+  <item nodeId="node-0x18c92120">
     <command xml:space="preserve">unlock desk</command>
     <result xml:space="preserve">(with the flower key)
 You unlock the desk.
@@ -134,10 +134,10 @@ You unlock the desk.
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0x36ce40" />
+      <child nodeId="node-0x18c92170" />
     </children>
   </item>
-  <item nodeId="node-0x36ce40">
+  <item nodeId="node-0x18c92170">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">You open the desk, revealing a mirror.
 
@@ -146,10 +146,10 @@ You unlock the desk.
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe5ad350" />
+      <child nodeId="node-0x18c921e0" />
     </children>
   </item>
-  <item nodeId="node-0xe5ad350">
+  <item nodeId="node-0x18c921e0">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">Taken.
 
@@ -158,10 +158,10 @@ You unlock the desk.
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe150000" />
+      <child nodeId="node-0x18c92310" />
     </children>
   </item>
-  <item nodeId="node-0xe150000">
+  <item nodeId="node-0x18c92310">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Throne Room
@@ -176,10 +176,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xbde14d0" />
+      <child nodeId="node-0x18c92020" />
     </children>
   </item>
-  <item nodeId="node-0xbde14d0">
+  <item nodeId="node-0x18c92020">
     <command xml:space="preserve">sit in seat</command>
     <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
 
@@ -188,10 +188,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe5a42e0" />
+      <child nodeId="node-0x18c92380" />
     </children>
   </item>
-  <item nodeId="node-0xe5a42e0">
+  <item nodeId="node-0x18c92380">
     <command xml:space="preserve">use mirror</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -200,10 +200,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0x2db270" />
+      <child nodeId="node-0x18c923f0" />
     </children>
   </item>
-  <item nodeId="node-0x2db270">
+  <item nodeId="node-0x18c923f0">
     <command xml:space="preserve">show mirror to dragon</command>
     <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
  &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
@@ -213,10 +213,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="49">YES</temporary>
     <children>
-      <child nodeId="node-0xe57dcc0" />
+      <child nodeId="node-0x18c92460" />
     </children>
   </item>
-  <item nodeId="node-0xe57dcc0">
+  <item nodeId="node-0x18c92460">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
 
@@ -225,7 +225,7 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
   </item>
-  <item nodeId="node-0xbd9e740">
+  <item nodeId="node-0x18c924d0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -234,7 +234,7 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0xbd2ca90">
+  <item nodeId="node-0x18c92540">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Library
@@ -245,41 +245,53 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="131">YES</temporary>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0x4d4fc0" />
-      <child nodeId="node-0x468690" />
-      <child nodeId="node-0x49ca90" />
-      <child nodeId="node-0x4515a0" />
-      <child nodeId="node-0xbdf2910" />
+      <child nodeId="node-0x18c93fc0" />
+      <child nodeId="node-0x18c93ee0" />
+      <child nodeId="node-0x18c93d20" />
+      <child nodeId="node-0x18c93770" />
+      <child nodeId="node-0x18c925b0" />
     </children>
   </item>
-  <item nodeId="node-0xbdf2910">
+  <item nodeId="node-0x18c925b0">
     <command xml:space="preserve">open bookcase</command>
     <result xml:space="preserve">You open bookcase, revealing a flower key.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="131">YES</temporary>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0xe13a6f0" />
+      <child nodeId="node-0x18c92250" />
     </children>
   </item>
-  <item nodeId="node-0xe13a6f0">
+  <item nodeId="node-0x18c92250">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="131">YES</temporary>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0x2afd60" />
-      <child nodeId="node-0x10d15800" />
+      <child nodeId="node-0x18c922a0" />
+      <child nodeId="node-0x18c935b0" />
     </children>
   </item>
-  <item nodeId="node-0x10d15800">
+  <item nodeId="node-0x18c935b0">
+    <command xml:space="preserve">unlcok desk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92c70">
     <command xml:space="preserve">unlock desk</command>
     <result xml:space="preserve">(with the flower key)
 You unlock the desk.
@@ -287,74 +299,36 @@ You unlock the desk.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="131">YES</temporary>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0xe5b4370" />
-      <child nodeId="node-0x2b54b0" />
-      <child nodeId="node-0x1120c4a0" />
+      <child nodeId="node-0x18c92ce0" />
     </children>
   </item>
-  <item nodeId="node-0x1120c4a0">
-    <command xml:space="preserve">take mirror</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
-    <children>
-      <child nodeId="node-0xe13fa30" />
-    </children>
-  </item>
-  <item nodeId="node-0xe13fa30">
-    <command xml:space="preserve">x desk</command>
-    <result xml:space="preserve">You see nothing special about the desk.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
-    <children>
-      <child nodeId="node-0xe594270" />
-    </children>
-  </item>
-  <item nodeId="node-0xe594270">
+  <item nodeId="node-0x18c92ce0">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">You open the desk, revealing a mirror.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0xe1173e0" />
+      <child nodeId="node-0x18c92d50" />
     </children>
   </item>
-  <item nodeId="node-0xe1173e0">
-    <command xml:space="preserve">take mirrior</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
-    <children>
-      <child nodeId="node-0x10d1ae70" />
-    </children>
-  </item>
-  <item nodeId="node-0x10d1ae70">
+  <item nodeId="node-0x18c92d50">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0x11214ad0" />
+      <child nodeId="node-0x18c92dc0" />
     </children>
   </item>
-  <item nodeId="node-0x11214ad0">
+  <item nodeId="node-0x18c92dc0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Throne Room
@@ -366,183 +340,87 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0x3d2240" />
+      <child nodeId="node-0x18c92e30" />
     </children>
   </item>
-  <item nodeId="node-0x3d2240">
-    <command xml:space="preserve">show mirror to dragon</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
-    <children>
-      <child nodeId="node-0x3f5540" />
-    </children>
-  </item>
-  <item nodeId="node-0x3f5540">
-    <command xml:space="preserve">take flag</command>
+  <item nodeId="node-0x18c92e30">
+    <command xml:space="preserve">sit in seat</command>
     <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0xbdf19f0" />
+      <child nodeId="node-0x18c93620" />
     </children>
   </item>
-  <item nodeId="node-0xbdf19f0">
-    <command xml:space="preserve">show mirror to dragon</command>
-    <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
- &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="63">YES</temporary>
-    <children>
-      <child nodeId="node-0xe554ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe554ea0">
-    <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="62">YES</temporary>
-  </item>
-  <item nodeId="node-0x2b54b0">
-    <command xml:space="preserve">open dek</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x3b4c10" />
-    </children>
-  </item>
-  <item nodeId="node-0x3b4c10">
-    <command xml:space="preserve">open desk</command>
-    <result xml:space="preserve">You open the desk, revealing a mirror.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x18b48dd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18b48dd0">
-    <command xml:space="preserve">take mirror</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0xe5e2070" />
-    </children>
-  </item>
-  <item nodeId="node-0xe5e2070">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Throne Room
-A huge, open space, complete with pillars, paintings, and a beautiful view of the outside world that you will never get to explore.
-
-A flag hangs above the royal Standard Lecture Hall Seat. Three horizontal bands of red, white, and blue superimposed by the Croatian coat of arms.
-
-In the center, near the back of the room you see the throne of Cramalot&apos;s ruler: the Standard Lecture Hall Seat, barely comfortable fabric, plastic backing, one of those little table things you can pull up from the side. It&apos;s not exactly glorious, and so old you can see the springs pressing up from within the seat. Even so, it beckons to you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0xe5bbdf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe5bbdf0">
-    <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x18b3d1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18b3d1d0">
+  <item nodeId="node-0x18c93620">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0xe55a970" />
+      <child nodeId="node-0x18c93690" />
     </children>
   </item>
-  <item nodeId="node-0xe55a970">
-    <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x4d0df0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4d0df0">
-    <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x2cbd00" />
-    </children>
-  </item>
-  <item nodeId="node-0x2cbd00">
+  <item nodeId="node-0x18c93690">
     <command xml:space="preserve">show mirror to dragon</command>
     <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
  &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="98">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
     <children>
-      <child nodeId="node-0x1863d950" />
+      <child nodeId="node-0x18c93700" />
     </children>
   </item>
-  <item nodeId="node-0x1863d950">
+  <item nodeId="node-0x18c93700">
     <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
+    <result xml:space="preserve">You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..
+
+
+ As the white begins to fade out, you realize your surroundings have changed and you seem to be underwater!  After a moment of panicked flailing, you realize you are having no trouble breathing and settle down.  Looking around, you notice you are in what seems to be some sort of lounge area.  &quot;Well, here we go again...&quot; you think to yourslef.
+
+Lounge
+A minimally-furnished room that contains a tan carpet on top of which are two white sofas separated by a coffee table.  There is also a seaweed plant in a pot in the corner of the room.  The back wall is made entirely of glass, and you can see various sea creatures swimming about and a beautiful view of the outside world that you will never get to explore.
+
+
+
+    *** To be continued... ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+  </item>
+  <item nodeId="node-0x18c922a0">
+    <command xml:space="preserve">unlock desk</command>
+    <result xml:space="preserve">(with the flower key)
+You unlock the desk.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="97">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92c00" />
+      <child nodeId="node-0x18c927a0" />
+      <child nodeId="node-0x18c93150" />
+    </children>
   </item>
-  <item nodeId="node-0xe5b4370">
+  <item nodeId="node-0x18c93150">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">You open the desk, revealing a mirror.
 
@@ -551,10 +429,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x3e0450" />
+      <child nodeId="node-0x18c931c0" />
     </children>
   </item>
-  <item nodeId="node-0x3e0450">
+  <item nodeId="node-0x18c931c0">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">Taken.
 
@@ -563,10 +441,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x4d8790" />
+      <child nodeId="node-0x18c93230" />
     </children>
   </item>
-  <item nodeId="node-0x4d8790">
+  <item nodeId="node-0x18c93230">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Throne Room
@@ -581,11 +459,11 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x18a32970" />
-      <child nodeId="node-0xe107f00" />
+      <child nodeId="node-0x18c933f0" />
+      <child nodeId="node-0x18c932a0" />
     </children>
   </item>
-  <item nodeId="node-0xe107f00">
+  <item nodeId="node-0x18c932a0">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
 
@@ -594,10 +472,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0xe5c2fe0" />
+      <child nodeId="node-0x18c93310" />
     </children>
   </item>
-  <item nodeId="node-0xe5c2fe0">
+  <item nodeId="node-0x18c93310">
     <command xml:space="preserve">show mirror to dragon</command>
     <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
  &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
@@ -607,10 +485,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x2f9920" />
+      <child nodeId="node-0x18c93380" />
     </children>
   </item>
-  <item nodeId="node-0x2f9920">
+  <item nodeId="node-0x18c93380">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..
 
@@ -629,7 +507,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
   </item>
-  <item nodeId="node-0x18a32970">
+  <item nodeId="node-0x18c933f0">
     <command xml:space="preserve">sit in seat</command>
     <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
 
@@ -638,10 +516,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0xe571230" />
+      <child nodeId="node-0x18c93460" />
     </children>
   </item>
-  <item nodeId="node-0xe571230">
+  <item nodeId="node-0x18c93460">
     <command xml:space="preserve">sit in seat</command>
     <result xml:space="preserve">The dragon roars at you, spitting fire and smoke in your general direction.
 
@@ -650,10 +528,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x18c42cd0" />
+      <child nodeId="node-0x18c934d0" />
     </children>
   </item>
-  <item nodeId="node-0x18c42cd0">
+  <item nodeId="node-0x18c934d0">
     <command xml:space="preserve">show mirror to dragon</command>
     <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
  &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
@@ -663,10 +541,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x18c0b530" />
+      <child nodeId="node-0x18c93540" />
     </children>
   </item>
-  <item nodeId="node-0x18c0b530">
+  <item nodeId="node-0x18c93540">
     <command xml:space="preserve">sit in seat</command>
     <result xml:space="preserve">You get onto the Standard Lecture Hall Seat.
 
@@ -677,56 +555,67 @@ You can feel the springs no matter what position you try to sit in. Maybe you sh
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
   </item>
-  <item nodeId="node-0x2afd60">
-    <command xml:space="preserve">unlcok desk</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x18c927a0">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0x18b48b10" />
+      <child nodeId="node-0x18c92810" />
     </children>
   </item>
-  <item nodeId="node-0x18b48b10">
-    <command xml:space="preserve">unlock desk</command>
-    <result xml:space="preserve">(with the flower key)
-You unlock the desk.
+  <item nodeId="node-0x18c92810">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">You see nothing special about the desk.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0xe522cb0" />
+      <child nodeId="node-0x18c92880" />
     </children>
   </item>
-  <item nodeId="node-0xe522cb0">
+  <item nodeId="node-0x18c92880">
     <command xml:space="preserve">open desk</command>
     <result xml:space="preserve">You open the desk, revealing a mirror.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0xe59a8b0" />
+      <child nodeId="node-0x18c928f0" />
     </children>
   </item>
-  <item nodeId="node-0xe59a8b0">
+  <item nodeId="node-0x18c928f0">
+    <command xml:space="preserve">take mirrior</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92960" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92960">
     <command xml:space="preserve">take mirror</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0x1863b460" />
+      <child nodeId="node-0x18c929d0" />
     </children>
   </item>
-  <item nodeId="node-0x1863b460">
+  <item nodeId="node-0x18c929d0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Throne Room
@@ -739,58 +628,228 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0x18a25980" />
+      <child nodeId="node-0x18c92a40" />
+      <child nodeId="node-0x18c6d050" />
     </children>
   </item>
-  <item nodeId="node-0x18a25980">
-    <command xml:space="preserve">sit in seat</command>
+  <item nodeId="node-0x18c6d050">
+    <command xml:space="preserve">sit on seat</command>
     <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0x1863a980" />
+      <child nodeId="node-0x36e8e0" />
     </children>
   </item>
-  <item nodeId="node-0x1863a980">
-    <command xml:space="preserve">take flag</command>
-    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
+  <item nodeId="node-0x36e8e0">
+    <command xml:space="preserve">show mirror to  dragon</command>
+    <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
+ &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
     <children>
-      <child nodeId="node-0x18a133f0" />
+      <child nodeId="node-0x3ee840" />
     </children>
   </item>
-  <item nodeId="node-0x18a133f0">
+  <item nodeId="node-0x3ee840">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..
+this is before
+Lounge
+A minimally-furnished lounge area that contains a tan carpet on top of which are two white sofas separated by a coffee table.  There is also a seaweed plant in a pot in the corner of the room.  The back wall is made entirely of glass, and you can see various sea creatures swimming about and a beautiful view of the outside world that you will never get to explore.
+
+this is after
+
+
+    *** To be continued... ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+  </item>
+  <item nodeId="node-0x18c92a40">
+    <command xml:space="preserve">show mirror to dragon</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92ab0">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92b20">
     <command xml:space="preserve">show mirror to dragon</command>
     <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
  &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="110">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
     <children>
-      <child nodeId="node-0x1865f580" />
+      <child nodeId="node-0x18c92b90" />
     </children>
   </item>
-  <item nodeId="node-0x1865f580">
+  <item nodeId="node-0x18c92b90">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0x18c92c00">
+    <command xml:space="preserve">open dek</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92620" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92620">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the desk, revealing a mirror.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92690" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92690">
+    <command xml:space="preserve">take mirror</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92700" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92700">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Throne Room
+A huge, open space, complete with pillars, paintings, and a beautiful view of the outside world that you will never get to explore.
+
+A flag hangs above the royal Standard Lecture Hall Seat. Three horizontal bands of red, white, and blue superimposed by the Croatian coat of arms.
+
+In the center, near the back of the room you see the throne of Cramalot&apos;s ruler: the Standard Lecture Hall Seat, barely comfortable fabric, plastic backing, one of those little table things you can pull up from the side. It&apos;s not exactly glorious, and so old you can see the springs pressing up from within the seat. Even so, it beckons to you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92eb0">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c92f20">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="109">YES</temporary>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c92f90" />
+    </children>
   </item>
-  <item nodeId="node-0x4515a0">
+  <item nodeId="node-0x18c92f90">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c93000" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c93000">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c93070" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c93070">
+    <command xml:space="preserve">show mirror to dragon</command>
+    <result xml:space="preserve">You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. 
+ &quot;Wait, I have green eyes?!&quot; it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c930e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c930e0">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">The gargantuan dragon glares at you, blocking your way to the flag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+  </item>
+  <item nodeId="node-0x18c93770">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve">You flick through the pages of one of the heavier books. &quot;Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.&quot; Ummm.... no.
 
@@ -799,10 +858,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0x10d0f6b0" />
+      <child nodeId="node-0x18c937e0" />
     </children>
   </item>
-  <item nodeId="node-0x10d0f6b0">
+  <item nodeId="node-0x18c937e0">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve">You pick up one of the books and flip to a random page. &quot;Consider the infinite Atwood&apos;s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?&quot;
 You carefully close the book and replace it, as if any sudden  movements will incur its wrath.
@@ -812,10 +871,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0x10d17570" />
+      <child nodeId="node-0x18c93850" />
     </children>
   </item>
-  <item nodeId="node-0x10d17570">
+  <item nodeId="node-0x18c93850">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve"> You eye the books skeptically. Maybe this time you&apos;ll pick up something that isn&apos;t a textbook? You try your luck: &quot;You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven&apos;t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?&quot; Nope. Nuh-uh. Never again.
 
@@ -824,10 +883,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0x10d18440" />
+      <child nodeId="node-0x18c938c0" />
     </children>
   </item>
-  <item nodeId="node-0x10d18440">
+  <item nodeId="node-0x18c938c0">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve"> NO.
 
@@ -836,10 +895,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xbd46a70" />
+      <child nodeId="node-0x18c93930" />
     </children>
   </item>
-  <item nodeId="node-0xbd46a70">
+  <item nodeId="node-0x18c93930">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -848,10 +907,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe5841c0" />
+      <child nodeId="node-0x18c939a0" />
     </children>
   </item>
-  <item nodeId="node-0xe5841c0">
+  <item nodeId="node-0x18c939a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -860,10 +919,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe15e7f0" />
+      <child nodeId="node-0x18c93a10" />
     </children>
   </item>
-  <item nodeId="node-0xe15e7f0">
+  <item nodeId="node-0x18c93a10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -872,10 +931,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe13a160" />
+      <child nodeId="node-0x18c93a80" />
     </children>
   </item>
-  <item nodeId="node-0xe13a160">
+  <item nodeId="node-0x18c93a80">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve"> NO.
 
@@ -884,10 +943,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0x1120d450" />
+      <child nodeId="node-0x18c93af0" />
     </children>
   </item>
-  <item nodeId="node-0x1120d450">
+  <item nodeId="node-0x18c93af0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Throne Room
@@ -902,10 +961,10 @@ In the center, near the back of the room you see the throne of Cramalot&apos;s r
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe194100" />
+      <child nodeId="node-0x18c93b60" />
     </children>
   </item>
-  <item nodeId="node-0xe194100">
+  <item nodeId="node-0x18c93b60">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Library
@@ -918,10 +977,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe5a09b0" />
+      <child nodeId="node-0x18c93bd0" />
     </children>
   </item>
-  <item nodeId="node-0xe5a09b0">
+  <item nodeId="node-0x18c93bd0">
     <command xml:space="preserve">x desk</command>
     <result xml:space="preserve">You see nothing special about the desk.
 
@@ -930,10 +989,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe56ceb0" />
+      <child nodeId="node-0x18c93c40" />
     </children>
   </item>
-  <item nodeId="node-0xe56ceb0">
+  <item nodeId="node-0x18c93c40">
     <command xml:space="preserve">x bookcase</command>
     <result xml:space="preserve">You see nothing special about bookcase.
 
@@ -942,10 +1001,10 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
     <children>
-      <child nodeId="node-0xe172bb0" />
+      <child nodeId="node-0x18c93cb0" />
     </children>
   </item>
-  <item nodeId="node-0xe172bb0">
+  <item nodeId="node-0x18c93cb0">
     <command xml:space="preserve">open bookcase</command>
     <result xml:space="preserve">You open bookcase, revealing a flower key.
 
@@ -954,7 +1013,7 @@ You can see bookshelf (on which are a pile of books and a Legend of the Bad Dude
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
   </item>
-  <item nodeId="node-0x49ca90">
+  <item nodeId="node-0x18c93d20">
     <command xml:space="preserve">x legend</command>
     <result xml:space="preserve">&quot;Long ago, 5 rhelms lived in harmony.  Each of these rhelms contained one of the pieces of five, which, when all brought together, would grant the bearer unlimited power.  Legend tells of a bad dude who wanted to rule the world (as bad dudes usually do)  In order to do this, he had to travel through the different rhelms and collect each piece of five.  A great warrior, chosen by the rulers of the rhelm, followed him through the rhelms and eventually put and end to his quest.  To ensure this never happened again, the rhelms were disconennected from each other and one could only travel between them under very specific circumstances.&quot; 
 
@@ -965,10 +1024,10 @@ Sounds stupid.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x1d3f80" />
+      <child nodeId="node-0x18c93d90" />
     </children>
   </item>
-  <item nodeId="node-0x1d3f80">
+  <item nodeId="node-0x18c93d90">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve">You flick through the pages of one of the heavier books. &quot;Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.&quot; Ummm.... no.
 
@@ -977,10 +1036,10 @@ Sounds stupid.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x4edda0" />
+      <child nodeId="node-0x18c93e00" />
     </children>
   </item>
-  <item nodeId="node-0x4edda0">
+  <item nodeId="node-0x18c93e00">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve">You pick up one of the books and flip to a random page. &quot;Consider the infinite Atwood&apos;s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?&quot;
 You carefully close the book and replace it, as if any sudden  movements will incur its wrath.
@@ -990,10 +1049,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xe1140a0" />
+      <child nodeId="node-0x18c93e70" />
     </children>
   </item>
-  <item nodeId="node-0xe1140a0">
+  <item nodeId="node-0x18c93e70">
     <command xml:space="preserve">x books</command>
     <result xml:space="preserve"> You eye the books skeptically. Maybe this time you&apos;ll pick up something that isn&apos;t a textbook? You try your luck: &quot;You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven&apos;t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?&quot; Nope. Nuh-uh. Never again.
 
@@ -1002,7 +1061,7 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x468690">
+  <item nodeId="node-0x18c93ee0">
     <command xml:space="preserve">x bookcase</command>
     <result xml:space="preserve">You see nothing special about bookcase.
 
@@ -1011,10 +1070,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x4fb940" />
+      <child nodeId="node-0x18c93f50" />
     </children>
   </item>
-  <item nodeId="node-0x4fb940">
+  <item nodeId="node-0x18c93f50">
     <command xml:space="preserve">x legend</command>
     <result xml:space="preserve">Long ago, five worlds coexisted in harmony, but everything changed when the Bad Dude attacked.
 
@@ -1023,7 +1082,7 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x4d4fc0">
+  <item nodeId="node-0x18c93fc0">
     <command xml:space="preserve">x legen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1032,10 +1091,10 @@ You carefully close the book and replace it, as if any sudden  movements will in
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x36a520" />
+      <child nodeId="node-0x18c94030" />
     </children>
   </item>
-  <item nodeId="node-0x36a520">
+  <item nodeId="node-0x18c94030">
     <command xml:space="preserve">x legend</command>
     <result xml:space="preserve">&lt;&lt;insert foreshadowing story here&gt;&gt; 
 
