@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02E44360" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x0255C5A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02E44360"/>
-  <item nodeId="node-0x02E44360">
+  <activeNode nodeId="node-0x0255C5A0"/>
+  <item nodeId="node-0x0255C5A0">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Final Project&#x000A;An Interactive Fiction by Kristen Ho (kho11) and Martina Stepisnik (mstepisn)&#x000A;Release 1 / Serial number 150601 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Tower&#x000A;A spacious room with tall, open windows. You can see the purple of the sun from here, against a backdrop of green sky. The middle of the room is open, allowing you to see the bookshelves below. The stairs on the south side of the tower lead down into the Library.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Final Project&#x000A;An Interactive Fiction by Kristen Ho (kho11) and Martina Stepisnik (mstepisn)&#x000A;Release 1 / Serial number 150604 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Tower&#x000A;A spacious room with tall, open windows. You can see the purple of the sun and the three pink moons from here, against a backdrop of green sky. The middle of the room is open, allowing you to see the bookshelves below. The stairs on the south side of the tower lead down into the Library.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
