@@ -1,5 +1,7 @@
 "Final Project" by Kristen Ho (kho11) and Martina Stepisnik (mstepisn)
 
+
+
 [INIT]
 [BIG BAD]
 Garrett is a male person.
@@ -38,7 +40,7 @@ The description of the flower key is "A brass key in the shape of a flower. It m
 On the bookshelf is a pile of books and a Legend of the Bad Dude. The description of the books is "[one of]You flick through the pages of one of the heavier books. 'Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.' Ummm.... no.[or]You pick up one of the books and flip to a random page. 'Consider the infinite Atwood’s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?'[line break]You carefully close the book and replace it, as if any sudden  movements will incur its wrath.[or] You eye the books skeptically. Maybe this time you'll pick up something that isn't a textbook? You try your luck: 'You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?' Nope. Nuh-uh. Never again.[or] NO.[stopping]".
 Instead of taking the books, say "No chance. No way. You won't do it, no, no."
 
-The description of the Legend is "Long ago, five worlds coexisted in harmony, but everything changed when the Bad Dude attacked."
+The description of the Legend is "<<insert foreshadowing story here>>"
 
 The description of the Throne Room is "A huge, open space, complete with pillars, paintings, and a beautiful view of the outside world that you will never get to explore."
 The Standard Lecture Hall Seat is an enterable supporter in the Throne Room. "In the center, near the back of the room you see the throne of Cramalot's ruler: the Standard Lecture Hall Seat, barely comfortable fabric, plastic backing, one of those little table things you can pull up from the side. It's not exactly glorious, and so old you can see the springs pressing up from within the seat. Even so, it beckons to you."
@@ -46,39 +48,48 @@ The Flag is in the Throne Room. "A flag hangs above the royal Standard Lecture H
 Every turn:
 	if the player is on the Seat, say "You can feel the springs no matter what position you try to sit in. Maybe you should just not sit here."
 
+The dragon can be a bird.
+
 Before taking the flag:
 	if the dragon is in the throne room:
-		say "The gargantuan dragon glares at you, blocking your way to the flag.";
-		stop the action;
+		if the dragon is not a bird:
+			say "The gargantuan dragon glares at you, blocking your way to the flag.";
+			stop the action;
+	else:
+		if the dragon is not a bird:
+			say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
+			move the dragon to the throne room;
+			stop the action.
+
+Before entering the Seat:
+	if the dragon is in the throne room:
+		if the dragon is not a bird:
+			say "The dragon roars at you, spitting fire and smoke in your general direction.";
+			stop the action;
 	else:
 		say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
 		move the dragon to the throne room;
 		stop the action.
 
-Before entering the Seat:
-	if the dragon is in the throne room:
-		say "The dragon roars at you, spitting fire and smoke in your general direction.";
-		stop the action;
-	else:
-		say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
-		move the dragon to the throne room;
-		stop the action.
-	
+
 Instead of attacking dragon:
 	say "[one of]You scream at the dragon in an attempt to scare it off. It blinks in confusion, then flapps its wings a couple of times, buffeting you with wind.[or]A huge plume of smoke erupts from the dragon's maw, engulfing you in searing heat. You bat it away with your arms, somehow dispersing it.[or]It snarls and snaps its jaws at you in warning, its shiny teeth gleaming in the light of the moons.[or]The dragon says, 'Gaze upon my glorious self! My scales are shining, my claws are sharp, and I am the most majestic creature ever to exist! There are none who are my equal!'[line break]Well, isn't he full of himself? Why not just sit in front a mirror all day and leave the rest of us alone?[at random]".
 	
 Instead of showing mirror to dragon:
-	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. [line break] 'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed."
+	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. [line break] 'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
+	now the dragon is a bird.
 
 Instead of giving mirror to dragon:
-	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed."
+	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed.";
+	now the dragon is a bird.
 	
 After taking the flag:
 	say "You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..";
 	now the flower key is nowhere;
 	now the pile of books is nowhere;
 	now the player is holding the legend;
-	move the player to the Lounge.
+	move the player to the Lounge;
+	End the story saying "To be continued...".
 
 
 [ATLANTICO]
@@ -88,6 +99,8 @@ The lounge is east of the kitchen and west of the conference.
 The spork is in the drawer. The drawer is a locked, opaque container in the Kitchen.
 The golden key unlocks the drawer. The golden key is on the table. The table is in the Conference Room.
 The shark is in the conference room.
+
+The description of the lounge is "A minimally-furnished lounge area that contains a tan carpet on top of which are two white sofas separated by a coffee table.  There is also a seaweed plant in a pot in the corner of the room.  The back wall is made entirely of glass, and you can see various sea creatures swimming about and a beautiful view of the outside world that you will never get to explore."
 
 
 [TURTOGA ISLAND]
