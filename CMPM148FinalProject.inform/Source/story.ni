@@ -35,6 +35,19 @@ The description of the Tower is "A spacious room with tall, open windows. You ca
 
 The description of the Library is "A room full of books and desks. The Throne Room is east of here."
 There are bookshelf, bookcase, desk, chair in the Library. The chair is an enterable supporter. The bookshelf is a supporter. The bookcase is an openable, closed, opaque container. The desk is an openable, closed, lockable, locked, opaque container. The flower key unlocks the desk. It is in the bookcase. The mirror is in the desk.
+
+[no taking weird shit]
+Instead of taking the desk:
+	 say "The desk is made of the finest mahogany you've ever seen.  As pretty as it is, it's too heavy for you to carry by yourself.  Best just leave it where it is...".
+Instead of taking the bookcase:
+	say "Looks heavy.  Probably not even worth trying.".
+Instead of taking the bookshelf:
+	say "What is a library without books?  Besides, where would you even take it too?".
+Instead of taking the chair:
+	say "The chair matched the desk so nicely, it would be a shame to separate them.".
+Instead of taking the seat:
+	say "You think about it and decide it might not be wise to steal someone's thrown.  This is how wars are started, after all...".
+
 The printed name of the desk is "the desk".
 The description of the flower key is "A brass key in the shape of a flower. It matches the carvings on one of the desks, *hinthintnudgenudge*."
 On the bookshelf is a pile of books and a Legend of the Bad Dude. The description of the books is "[one of]You flick through the pages of one of the heavier books. 'Consider the function  f(x) = { x^{5} * e^x (4x+3) / 5^{ln x} (3-x)^{2} }. Find an equation of the line tangent to the graph of f at x = 1.' Ummm.... no.[or]You pick up one of the books and flip to a random page. 'Consider the infinite Atwood’s machine shown below. A string passes over each pulley, with one end attached to a mass and the other end attached to another pulley. All the masses are equal to m, and all the pulleys and strings are massless. The masses are held fixed and then simultaneously released. What is the acceleration of the top mass?'[line break]You carefully close the book and replace it, as if any sudden  movements will incur its wrath.[or] You eye the books skeptically. Maybe this time you'll pick up something that isn't a textbook? You try your luck: 'You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course). They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island which states that if a dragon ever finds out that they have green eyes, then at precisely midnight on the day of this discovery, they must relinquish all dragon powers and transform into a longtailed sparrow. However, there are no mirrors on the island, and they never talk about eye color, so the dragons have been living in blissful ignorance throughout the ages. Upon your departure, all the dragons get together to see you off, and in a tearful farewell you thank them for being such hospitable dragons. Then you decide to tell them something that they all already know (for each can see the colors of the eyes of the other dragons). You tell them all that at least one of them has green eyes. Then you leave, not thinking of the consequences (if any). Assuming that the dragons are (of course) infallibly logical, what happens? If something interesting does happen, what exactly is the new information that you gave the dragons?' Nope. Nuh-uh. Never again.[or] NO.[stopping]".
