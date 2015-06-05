@@ -52,6 +52,7 @@ Before taking the flag:
 		stop the action;
 	else:
 		say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
+		move the dragon to the throne room;
 		stop the action.
 
 Before entering the Seat:
@@ -60,18 +61,23 @@ Before entering the Seat:
 		stop the action;
 	else:
 		say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant hole in it and scattering rubble everywhere.";
+		move the dragon to the throne room;
 		stop the action.
 	
 Instead of attacking dragon:
-	say "[one of]You scream at the dragon in an attempt to scare it off. It blinks in confusion, then flapps its wings a couple of times, buffeting you with wind.[or]A huge plume of smoke erupts from the dragon's maw, engulfing you in searing heat. You bat it away with your arms, somehow dispersing it.[or]It snarls and snaps its jaws at you in warning, its shiny teeth gleaming in the light of the moons.[cycling]".
+	say "[one of]You scream at the dragon in an attempt to scare it off. It blinks in confusion, then flapps its wings a couple of times, buffeting you with wind.[or]A huge plume of smoke erupts from the dragon's maw, engulfing you in searing heat. You bat it away with your arms, somehow dispersing it.[or]It snarls and snaps its jaws at you in warning, its shiny teeth gleaming in the light of the moons.[or]The dragon says, 'Gaze upon my glorious self! My scales are shining, my claws are sharp, and I am the most majestic creature ever to exist! There are none who are my equal!'[line break]Well, isn't he full of himself? Why not just sit in front a mirror all day and leave the rest of us alone?[at random]".
 	
 Instead of showing mirror to dragon:
 	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. [line break] 'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed."
+
+Instead of giving mirror to dragon:
+	say "You throw the mirror at the dragon. Its dragon instincts take over and it catches the shiny thing, and looks into the glassy surface, admiring its reflection. It smiles (somehow) and preens.[line break]'My scales! My fangs and horns, look at their beauty!' it says. 'Look at how wonderful my eyes are, green as emeralds!'[line break]'Wait, I have green eyes?!' it says, before poofing commically into a tiny bird. The mirror clatters to the ground, and the bird squawks and flies off, embarrassed."
 	
 After taking the flag:
-	say "You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue ";
+	say "You triumphantly retrieve the glorious flag from its position above the Seat. The red, white, and blue fabric flaps majestically in the wind as everything else fades to white..";
 	now the flower key is nowhere;
 	now the pile of books is nowhere;
+	now the player is holding the legend;
 	move the player to the Lounge.
 
 
