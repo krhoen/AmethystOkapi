@@ -1,6 +1,6 @@
 "Final Project" by Kristen Ho (kho11) and Martina Stepisnik (mstepisn)
 
-
+test win with "down / open bookcase / take flower key / unlock desk / open desk / take mirror / e / take flag / throw mirror at dragon / take flag"
 
 [INIT]
 [BIG BAD]
@@ -73,6 +73,8 @@ Before taking the flag:
 		if the dragon is not a bird:
 			say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room in a very dramatic fashion, leaving a giant hole in it and scattering rubble everywhere.";
 			move the dragon to the throne room;
+			now there is a hole in the throne room;
+			now there is rubble in the throne room;
 			stop the action.
 
 Before entering the Seat:
@@ -84,9 +86,13 @@ Before entering the Seat:
 		if the dragon is not a bird:
 			say "A booming CRASH resounds throughout the castle as a huge dragon comes crashing down through the roof of the Throne Room, leaving a giant [hole] in it and scattering [rubble] everywhere.";
 			move the dragon to the throne room;
+			now there is a hole in the throne room;
+			now there is rubble in the throne room;
 			stop the action.
-The description of the hole is "Wow, the sky is so green!"
-The description of the rubble is "Somewhere out there, an architect is crying."
+The hole is scenery. The description of the hole is "Wow, the sky is so green!"
+Instead of taking the hole, say "...[line break]How?"
+The rubble is scenery. The description of the rubble is "Somewhere out there, an architect is crying."
+Instead of taking the rubble, say "You try to lift one of the smaller pieces, but your noodly arms are too weak, and you fail miserably."
 
 Instead of attacking dragon:
 	say "[one of]You scream at the dragon in an attempt to scare it off. It blinks in confusion, then flapps its wings a couple of times, buffeting you with wind.[or]A huge plume of smoke erupts from the dragon's maw, engulfing you in searing heat. You bat it away with your arms, somehow dispersing it.[or]It snarls and snaps its jaws at you in warning, its shiny teeth gleaming in the light of the moons.[or]The dragon says, 'Gaze upon my glorious self! My scales are shining, my claws are sharp, and I am the most majestic creature ever to exist! There are none who are my equal!'[line break]Well, isn't he full of himself? Why not just sit in front a mirror all day and leave the rest of us alone?[at random]".
@@ -114,7 +120,7 @@ After taking the flag:
 	now the flower key is nowhere;
 	now the pile of books is nowhere;
 	now the player is holding the legend;
-	say "[paragraph break]As the white begins to fade out, you realize your surroundings have changed and you seem to be underwater! After a moment of panicked flailing, you realize you are having no trouble breathing and settle down.  Looking around, you notice you are in what seems to be some sort of lounge area.";
+	say "[paragraph break]As the white begins to fade back into color, you realize your surroundings have changed and you seem to be underwater! After a moment of panicked flailing, you realize you are having no trouble breathing and settle down. Looking around, you notice you are in what seems to be some sort of lounge area.";
 	move the player to the Lounge;
 	End the story saying "To be continued...".
 
