@@ -1,4 +1,5 @@
 "Unreality" by Kristen Ho (kho11) and Martina Stepisnik (mstepisn)
+The story description is "To Dream is Not Enough: Can you make it to the end of the dream alive?"
 
 test win with "down / open bookcase / take flower key / unlock desk / open desk / take mirror / e / take flag / throw mirror at dragon / take flag"
 

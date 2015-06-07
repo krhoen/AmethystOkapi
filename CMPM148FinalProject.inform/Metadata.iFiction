@@ -6,14 +6,20 @@
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>Final Project</title>
-            <author>Kristen Ho (kho11) and Martina Stepisnik (mstepisn)</author>
+            <title>Unreality</title>
+            <author>Kristen Ho (kho11) and Martina Stepisnik (mstepisn) The story description is 'To Dream is Not Enough: Can you make it to the end of the dream alive?'</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2015</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>120</height>
+            <width>240</width>
+            <description>The cover art.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
@@ -33,6 +39,7 @@
             <serial>150605</serial>
             <release>1</release>
             <compiler>Inform 7 build 6L38</compiler>
+            <coverpicture>1</coverpicture>
         </glulx>
     </story>
 </ifindex>

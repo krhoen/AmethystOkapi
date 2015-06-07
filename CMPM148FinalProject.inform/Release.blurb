@@ -6,31 +6,48 @@ status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C
 ! Identification
 
 project folder "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform"
+release to "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Final Project.gblorb"
+storyfile leafname "Unreality.gblorb"
 storyfile "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Build\output.ulx" include
 ifiction "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Metadata.iFiction" include
-cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+cover "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Cover.png"
+picture 1 "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Cover.png"
 
 ! Placeholder variables
 
 placeholder [IFID] = "1D02A5B3-C97E-414D-830A-6F0ED4DC1CF6"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2015"
-placeholder [TITLE] = "Final Project"
-placeholder [AUTHOR] = "Kristen Ho (kho11) and Martina Stepisnik (mstepisn)"
+placeholder [TITLE] = "Unreality"
+placeholder [AUTHOR] = "Kristen Ho (kho11) and Martina Stepisnik (mstepisn) The story description is 'To Dream is Not Enough: Can you make it to the end of the dream alive?'"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Unreality.gblorb.js"
+template path "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Templates"
+template path "C:\Users\varthandi\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.inform\Build\output.ulx" to "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Release\interpreter\Unreality.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\varthandi\Documents\02SourceTreeRepos\AmethystOkapi\CMPM148FinalProject.materials\Templates"
+template path "C:\Users\varthandi\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line196"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc400.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||

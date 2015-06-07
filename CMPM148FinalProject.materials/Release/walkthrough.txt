@@ -1,0 +1,13 @@
+Unreality Walkthrough
+
+To win (at this point, 'winning' constitutes retrieving the flag):
+down
+open bookcase
+take flower key
+unlock desk
+open desk
+take mirror
+east
+take flag
+give dragon mirror
+take flag
